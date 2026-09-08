@@ -2,75 +2,27 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 
 //https://github.com/prussia2017-maker/COSC113_Sept_3.git
-public class Student {
 
-    String FN;
+//Java uses four access modifiers - public, private, protected, _ (default)
+// Access modifiers are applicable to attributes, constructors, setters and getters, methods
 
-    String LN;
+// public = accessible from Everywhere
+// private = accessible from inside the class
 
-    int Sid;
+public class Main {
 
-    Student(){
-        this.FN = "No first name";
-        this.LN = "No last name";
-        this.Sid = 0;
-    }
+)public static void main(String[] args){
+        Student s8; s9, s10;
+        s8= new Student();
+  //      s8.gpa = 4.0;
+        s8.FN = "Praise";
+        s8.LN = "Ben";
+        s8. gpa = -3.1;
 
-    //Student(String FN, String LN) {
-    //    this.FN = FN;
-    //    this.LN = LN;
-    // }
-
-    Student(String FN, String LN) {
-        this.FN = FN;
-        this.LN = LN;
-    }
-
-    // How many parameters = 3
-    Student(String FN, String LN, int Sid) {
-        //  this.FN = FN;
-        //  this.LN = LN;
-        this(FN,LN);
-        this.Sid = Sid;
-    }
-
-    Student(String FN, int Sid, String LN){
-        this.FN = FN;
-        this.LN = LN;
-        this.Sid = Sid;
-    }
-
-    //Methods = Getters and Setters
+        s8.setGpa(3.8);
 
 
-    public String getFN() {
-        return FN;
-    }
-
-    public void setFN(String FN) {
-        this.FN = FN;
-    }
-
-    public String getLN() {
-        return LN;
-    }
-
-    public void setLN(String LN) {
-        this.LN = LN;
-    }
-
-    public int getSid() {
-        return Sid;
-    }
-
-    public void setSid(int sid) {
-        Sid = sid;
-
-    }
-
-    //You can create overloaded constructors by varying 1) the parameter number, 2) order
-    public static void main(String[] args){
-
+        // Code from Sept 3rd
         Student s6 = new Student();
         // Setting names
         s6.FN = "Melanie";
