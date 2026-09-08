@@ -11,28 +11,31 @@
 
 public class Main {
 
-)public static void main(String[] args){
+public static void main(String[] args){
         Student s8; s9, s10;
-        s8= new Student();
-  //      s8.gpa = 4.0;
-        s8.FN = "Praise";
-        s8.LN = "Ben";
-        s8. gpa = -3.1;
+        s8 = new Student();
+  //    s8.gpa = 4.0;
+  //    s8.gpa = -3.1;
+        s8.setFN = ("Praise");
+        s8.setLN = ("Ben");
+      //  s8.setgpa = (3.8);
 
         s8.setGpa(3.8);
+
+        System.out.println("Praise Ben gpa is:" + s8.getGpa());
 
 
         // Code from Sept 3rd
         Student s6 = new Student();
         // Setting names
-        s6.FN = "Melanie";
-        s6.setLN("Thomas");
-        s6.LN = "Simpson";
+//        s6.FN = "Melanie";
+//        s6.setLN("Thomas");
+//        s6.LN = "Simpson";
 
         Student s4 = new Student ("Helena","Payton");
-        System.out.println(s4.FN);
-        System.out.println(s4.LN);
-        System.out.println(s4.Sid);
+//        System.out.println(s4.FN);
+//        System.out.println(s4.LN);
+//        System.out.println(s4.Sid);
         System.out.println("-------------------------");
         //Variable s1 is of Student type
         Student s1;

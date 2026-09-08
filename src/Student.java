@@ -46,7 +46,6 @@ public class Student {
 
     //Methods = Getters and Setters
 
-
     public String getFN() {
         return FN;
     }
@@ -74,12 +73,14 @@ public class Student {
             return gpa;
         }
 
-        public void setGpa (double gpa) {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       double gpa){
+        public void setGpa(double gpa) {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       double gpa){
          //   this.gpa = gpa;
             if (gpa >=0.0 && gpa <=4.0) {
                 this.gpa = gpa;
             } else {
-            System.out.println("Invalid GPA value");
+            System.out.println("Praise Ben gpa is:" + s8.getGpa());
+
+            Student s6 = new Student ();
             }
         }
 
